@@ -51,8 +51,8 @@ if ! command -v node >/dev/null || ! command -v git >/dev/null || ! command -v y
 fi
 
 # Clone the repository and install dependencies
-git clone https://github.com/eljsz/ChatGPT-Next-Web.git
-cd ChatGPT-Next-Web
+git clone https://github.com/eljsz/ChatGPT-Next-Web-main.git
+cd ChatGPT-Next-Web-main
 yarn install
 
 # Prompt user for environment variables

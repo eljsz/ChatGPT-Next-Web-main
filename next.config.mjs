@@ -68,7 +68,7 @@ if (mode !== "export") {
       },
       {
         source: "/google-fonts/:path*",
-        destination: "https://cdnjs.loli.net/:path*",
+        destination: "https://fonts.googleapis.com/:path*",
       },
       {
         source: "/sharegpt",
